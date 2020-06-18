@@ -1,0 +1,10 @@
+scalar Date
+
+type Record @model {
+  id: ID!
+  date: Date!
+  title: String!
+  body: String
+  tags: [String]!
+  public: Boolean!
+}
